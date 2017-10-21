@@ -8,7 +8,6 @@ license = "Unlicense"
 readme = "README.md"
 homepage = "https://github.com/myfreeweb/rusterpassword"
 repository = "https://github.com/myfreeweb/rusterpassword"
-documentation = "https://myfreeweb.github.io/autodocs/rusterpassword/rusterpassword"
 
 [dependencies]
 libc = "0.2"
