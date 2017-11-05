@@ -1,4 +1,9 @@
-# rusterpassword [![crates.io](https://img.shields.io/crates/v/rusterpassword.svg)](https://crates.io/crates/rusterpassword) [![Build Status](https://img.shields.io/travis/myfreeweb/rusterpassword.svg?style=flat)](https://travis-ci.org/myfreeweb/rusterpassword) [![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://myfreeweb.github.io/autodocs/rusterpassword/rusterpassword) [![unlicense](https://img.shields.io/badge/un-license-green.svg?style=flat)](http://unlicense.org)
+[![crates.io](https://img.shields.io/crates/v/rusterpassword.svg)](https://crates.io/crates/rusterpassword)
+[![API Docs](https://docs.rs/rusterpassword/badge.svg)](https://docs.rs/rusterpassword/)
+[![Build Status](https://img.shields.io/travis/myfreeweb/rusterpassword.svg?style=flat)](https://travis-ci.org/myfreeweb/rusterpassword)
+[![unlicense](https://img.shields.io/badge/un-license-green.svg?style=flat)](http://unlicense.org)
+
+# rusterpassword
 
 A [Rust] implementation of the [Master Password algorithm], created for [freepass].
 
