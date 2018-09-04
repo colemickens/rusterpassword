@@ -130,7 +130,7 @@ fn hash_hmac_sha256(key: &SecStr, msg: &[u8]) -> io::Result<SecStr> {
             msg.len() as u64);
         ret += ffi::crypto_auth_hmacsha256_final(
             &mut state,
-            dst.as_mut_ptr() as *mut [u8; 32]);
+            dst.as_mut_ptr() as *mut _);
         ret
     } == 0 {
         unsafe { dst.set_len(32); }
